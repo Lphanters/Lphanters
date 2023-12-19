@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(255, 255, 255);
+}
+
+.header {
+  height: 80px;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.nav-link {
+  color: #26c06e;
+  text-decoration: none;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: 0.7px;
+}
+
+.nav-menu {
+  display: flex;
+  margin-right: 40px;
+  list-style: none;
+}
+
+.nav-menu-item {
+  font-size: 15px;
+  margin: 0 10px;
+  line-height: 80px;
+  width: max-content;
+}
+
+.nav-menu-link {
+  padding: 1px 1px;
+  position: relative; /* Añade posición relativa */
+}
+
+.nav-menu-link::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #094067;
+  transition: width 0.6s ease; /* Añade la transición del ancho */
+}
+
+.nav-menu-link:hover::before,
+.nav-menu-link_active::before {
+  width: 100%; /* Cambia el ancho a 100% cuando se hace hover o está activo */
+}
+
+
+/* TOGGLE */
+.nav-toggle {
+  color: #2c3e50;
+  background: none;
+  border: none;
+  font-size: 30px;
+  padding: 0 20px;
+  line-height: 60px;
+  cursor: pointer;
+  display: none;
+}
+
+
+.logo-img{
+    height: 80px;
+    width: 80px;
+    display: flex;
+  }
+
+  .logo-img img{
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+    margin: auto;
+  }
+
+/*/////////////////////////////////////////////////////////////////*/
+/*////////////////////////FIN HEADER//////////////////////////////*/
+/*///////////////////////////////////////////////////////////////*/
+
+.mapa-container{
+    max-width: 1080px;
+    margin: auto;
+    display: flex;
+    height: calc(100vh - 80px);
+}
+
+.gmapa{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+
+
+
+.mcono{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 25px;
+}

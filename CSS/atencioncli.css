@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.heros{
+  height:50vh ;
+  width: 100%;
+  display: flex;
+  margin-top: 80px;
+}
+
+.hero-iz{
+    background-color: rgb(0, 0, 12);
+    width: 40%;
+    height: 100%;
+}
+
+.hero{
+    height: 100%;
+    width: 60%;
+}
+
+.hero img{
+    width: 100%;
+    height: 100%;
+}
+
+.filtro{
+    background-color: rgba(7, 44, 74, 0.548); 
+    width: 100%;
+    height: 50vh;
+    position: absolute;
+}
+
+
+  
+.h1 {
+    color: white;
+    max-width: 1024px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    position: relative; 
+    z-index: 1; 
+    font-size: 18px;
+    letter-spacing: 1px;
+    justify-content: center;
+  }
+  
+  .hi{
+    color: #0a9bed;
+    font-size: 42px;
+  }
+
+  .productos-container{
+    max-width: 1024px;
+    margin: auto;
+    display: flex;
+    margin-top: 32px;
+  }
+  
+  .ma-h1{
+    width: 30%;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #0062a5;
+  }
+  
+  .ma-line{
+    display: flex;
+    align-items: center;
+    width: 70%;
+  }
+  .line{
+    background-color: #0062a5;
+    height: 2px;
+    width: 100%;
+  }
+
+  /*///////////////////////////////////////////////*/
+  /*/////////////////////////////////////////////*/
+  /*////////////////////////////////////////////*/
+  .matriculate-container{
+    max-width: 1024px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+  }
+
+  .mascota{
+    width: 48%;
+    height: 550px;
+  }
+
+  .formulario{
+    width: 48%;
+    height: 550px;
+
+  }
+
+  .titulo{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .formularios{
+    width: 100%;
+    height: 80%;
+  }
+
+  form {
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    animation: fadeIn 0.5s ease-out;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 24px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #0062a5;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.boton {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+ .boton:hover {
+    background-color: #2980b9;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/*/////////////////////////////*/
+/*/////////////////////////////*/
+/*/////////////////////////////*/
+
+.cards{
+  margin-top: 24px;
+}
+
+.cards-container{
+  max-width: 1024px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contact-card{
+  width: 200px;
+  height: 210px;
+  background: linear-gradient(to bottom right, #007bcb, #045488);
+  box-shadow: 9px 11px 41px 6px rgba(0, 0, 0, 0.274);
+}
+
+.ccimg{
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
+  
+}
+
+.ccimg img{
+  width: 60%;
+  height: 60%;
+  margin-top: 15px;
+}
+
+.cct{
+  text-align: center;
+  margin-top: 15px;
+  color: white;
+}
+
+.cct h1{
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.ccp{
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+
+}
+
+.ccp p{
+  width: 80%;
+  margin-top: 4px;
+  font-size: 15px;
+}
+
+/*/////////////////////////////////////*/
+/*////////////////////////////////////*/
+/*////////////////////////////////////*/
+.form-map{
+  margin-top: 56px;
+}
+.fmap-container{
+  max-width: 1024px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form{
+  width: 48%;
+}
+
+.map{
+  width: 48%;
+  display: flex;
+  align-items: center;
+}
+
+
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    height: 100px;
+}
+
+
+

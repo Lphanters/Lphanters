@@ -1,0 +1,98 @@
+@media screen and (max-width: 767px) {
+    
+    .hero {
+        margin-top: 0px;
+        height: 30vh;
+      }
+      
+    .h1{
+       text-align: center;
+       width: calc(100% - 56px)
+      }
+      
+      .productos-container{
+        flex-direction: column;
+        width: calc(100% - 24px);
+      }
+
+      .pro-h1{
+        width: 100%;
+        text-align: center;
+      }
+      .pro-line{
+        width: 100%;
+      }
+
+      .card-producto-container{
+        width: calc(100% - 24px);
+        justify-content: center; 
+      }
+
+      .card-pro{
+        margin: 50px 12px 0px 12px ;
+      }
+
+      .ma-h1{
+        width: 100%;
+        text-align: center;
+        font-size: 25px;
+      }
+      .ma-line{
+        width: 100%;
+      }
+
+      .card-ma{
+        margin: 50px 12px 0px 12px ;
+      }
+      
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .hero {
+        height: 40vh;
+      }
+      .h1{
+        width: 100%; 
+        display: flex;
+        justify-content: center;
+        text-align: center;
+       }
+
+       .productos-container{
+        flex-direction: column;
+        width: calc(100% - 24px);
+      }
+
+      .pro-h1{
+        width: 100%;
+        text-align: center;
+      }
+      .pro-line{
+        width: 100%;
+      }
+
+      .card-producto-container{
+
+        width: calc(100% - 56px);
+        justify-content: space-evenly;
+
+      }
+
+      .ma-h1{
+        width: 100%;
+        text-align: center;
+        font-size: 25px;
+      }
+      .ma-line{
+        width: 100%;
+      }
+
+      .card-ma{
+        margin: 50px 12px 0px 12px ;
+      }
+      
+    
+}
+
+

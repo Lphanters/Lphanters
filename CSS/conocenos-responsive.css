@@ -1,0 +1,134 @@
+@media screen and (max-width: 767px) {
+    .heros{
+        height:30vh ;
+        width: 100%;
+        display: flex;
+        margin-top: 0px;
+      }
+
+      .filtro{
+        background-color: rgba(7, 44, 74, 0.548); 
+        width: 100%;
+        height: 30vh;
+        position: absolute;
+    }
+
+    .hero-iz{
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+
+    .hero{
+        display: none;
+    }
+    
+    .title-sec{
+        width: calc(100% - 20px) ;
+        justify-content: center;
+      }
+
+    .ttt{
+     font-size: 15px;
+    }
+
+    .line-1, .line-2{
+        width: 30%;
+    }
+
+    .vision-mision{
+        width: calc(100% - 24px);
+        margin: auto;
+    }
+
+    
+    .magra-container{
+        width: calc(100% - 24px);
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .master{
+        width: 100%;
+      }
+
+      .alumnos{
+        width: 100%;
+        margin-top: 16px;
+      }
+
+      .master{
+        width: 80%;
+        
+      }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+
+    .heros{
+        height:40vh ;
+        width: 100%;
+        display: flex;
+        margin-top: 80px;
+      }
+
+      .filtro{
+        background-color: rgba(7, 44, 74, 0.548); 
+        width: 100%;
+        height: 40vh;
+        position: absolute;
+    }
+
+    .hero-iz{
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+
+    .hero{
+        display: none;
+    }
+    
+    .title-sec{
+        width: calc(100% - 20px) ;
+        justify-content: center;
+      }
+
+      .ttt{
+        font-size: 15px;
+       }
+   
+       .line-1, .line-2{
+           width: 30%;
+       }
+   
+       .vision-mision{
+           width: calc(100% - 24px);
+           margin: auto;
+       }
+   
+       
+       .magra-container{
+           width: calc(100% - 24px);
+           flex-direction: column;
+           align-items: center;
+       }
+   
+       .master{
+           width: 100%;
+         }
+   
+         .alumnos{
+           width: 100%;
+           margin-top: 16px;
+         }
+   
+         .master{
+           width: 60%;
+         }
+
+}
